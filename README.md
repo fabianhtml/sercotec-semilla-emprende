@@ -8,6 +8,9 @@ Esta herramienta ayuda a visualizar y preparar tu postulación al programa Capit
 - **Uso de Markdown**: Implementación de contenido Markdown.
 - **Componentes UI Optimizados**: Conjunto de componentes UI personalizados y optimizados.
 - **Carga Progresiva**: Estrategia de carga secuencial para mejorar el rendimiento.
+- **Cloudflare**: Creado para desplegarse en Cloudflare Pages como sitio estático.
+
+Permite cargar el contenido que quieres mostrar en `markdown/content.tsx`.
 
 ## Tecnologías Principales
 

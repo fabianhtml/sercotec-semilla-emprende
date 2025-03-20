@@ -5,7 +5,7 @@ Aplicación web desarrollada con Next.js 15.2.3 para el programa Semilla Emprend
 ## Características
 
 - **Tema Claro por Defecto**: Configurado para usar el tema claro como predeterminado.
-- **Optimización de Carga Markdown**: Implementación de estrategias avanzadas para la carga eficiente de contenido Markdown.
+- **Uso de Markdown**: Implementación de contenido Markdown.
 - **Componentes UI Optimizados**: Conjunto de componentes UI personalizados y optimizados.
 - **Carga Progresiva**: Estrategia de carga secuencial para mejorar el rendimiento.
 
@@ -16,15 +16,6 @@ Aplicación web desarrollada con Next.js 15.2.3 para el programa Semilla Emprend
 - TailwindCSS
 - next-themes
 - React Markdown
-
-## Optimizaciones Implementadas
-
-1. Componente LightweightMarkdown personalizado para reducir el tamaño del bundle.
-2. Hook useMarkdownSections para dividir el contenido en secciones y cargarlas progresivamente.
-3. Estrategia de carga secuencial en la página principal.
-4. Prefetch de componentes críticos después de la carga inicial.
-5. Cargas diferidas con explicitación de nombres de chunks.
-6. Indicadores visuales de carga durante la carga progresiva.
 
 ## Instalación
 
@@ -43,7 +34,7 @@ pnpm start
 
 # Desplegar en Cloudflare Pages
 pnpm deploy
-```
+
 
 ## Estructura del Proyecto
 

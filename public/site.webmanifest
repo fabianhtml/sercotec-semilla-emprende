@@ -1,0 +1,30 @@
+{
+  "name": "Capital Semilla Emprende",
+  "short_name": "Sercotec Semilla",
+  "description": "Herramienta para preparar tu postulación al programa Capital Semilla Emprende",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icons/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icons/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/icons/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ],
+  "theme_color": "#0284c7",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "es-CL",
+  "dir": "ltr",
+  "scope": "/"
+}

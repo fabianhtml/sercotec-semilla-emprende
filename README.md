@@ -10,7 +10,7 @@ Esta herramienta ayuda a visualizar y preparar tu postulación al programa Capit
 - **Carga Progresiva**: Estrategia de carga secuencial para mejorar el rendimiento.
 - **Cloudflare**: Creado para desplegarse en Cloudflare Pages como sitio estático.
 
-Permite cargar el contenido que quieres mostrar en `markdown/content.tsx`.
+Permite cargar el contenido que quieres mostrar en [markdown/content.tsx](markdown/content.tsx).
 
 ## Tecnologías Principales
 

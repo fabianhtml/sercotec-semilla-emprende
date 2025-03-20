@@ -10,7 +10,7 @@ import { MoreInfo } from "@/components/more-info"
 const prefetchComponent = (path: string) => {
   const link = document.createElement('link');
   link.rel = 'prefetch';
-  link.href = path;
+  link.href = `/_next/static/chunks/${path}.js`;
   link.as = 'script';
   document.head.appendChild(link);
 }
@@ -45,8 +45,8 @@ export default function MarkdownViewer() {
 
     // Preload content-tabs.js chunk after 2 seconds
     const preloadTimer = setTimeout(() => {
-      prefetchComponent('/components/content-tabs');
-      prefetchComponent('/components/lightweight-markdown');
+      prefetchComponent('content-tabs');
+      prefetchComponent('lightweight-markdown');
     }, 2000);
 
     return () => clearTimeout(preloadTimer);

@@ -1,6 +1,6 @@
 # Sercotec Semilla Emprende
 
-Aplicación web desarrollada con Next.js 15.2.3 para el programa Semilla Emprende de Sercotec.
+Esta herramienta ayuda a visualizar y preparar tu postulación al programa Capital Semilla Emprende de Sercotec. Debes realizar la postulación en [sercotec.cl](https://sercotec.cl). Este material no reemplaza la lectura de las bases oficiales del concurso.
 
 ## Características
 
@@ -13,7 +13,7 @@ Aplicación web desarrollada con Next.js 15.2.3 para el programa Semilla Emprend
 
 - Next.js 15.2.3
 - React 19
-- TailwindCSS
+- TailwindCSS 3.4.17
 - next-themes
 - React Markdown
 
@@ -34,7 +34,7 @@ pnpm start
 
 # Desplegar en Cloudflare Pages
 pnpm deploy
-
+```
 
 ## Estructura del Proyecto
 
